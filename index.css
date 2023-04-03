@@ -1,0 +1,99 @@
+body{
+    
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;  
+    
+}
+#app {
+    font-family: 'Karla', sans-serif;
+    background: #1F2937;
+    color: #FFFFFF;
+    width: 550px;
+    height: 350px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 115px 52px;
+    box-shadow: 0px 0px 30px rgb(15, 15, 15);
+}
+
+#title{
+      font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0px 0px;
+}
+#title::after{
+    content: "\a";
+    white-space: pre;
+}
+#pasw{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0px 0px;
+    color: #4ADF86;
+}
+#desc{
+    color: #FFFFFF;
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px 0 50px 0;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    color: #FFFFFF;
+    background: #10B981;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+button:focus{
+    color: rgb(37, 37, 37);
+    background: #4cc9f0;
+}
+button:hover{
+    box-shadow: 0px 0px 10px rgba(202, 202, 202, .5) ;
+}
+#line{
+    border: 1px solid #2F3E53;
+    width: 550px;
+    border-radius: 50%;
+}
+#generate{
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+#generates {
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+.password{
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #55F991;
+    background: #273549;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin: 35px auto auto auto;
+}
